@@ -1,4 +1,4 @@
 blog-material
 =============
 
-Code samples from fcfeibel.com/blog/
+Code samples from http://fcfeibel.com/blog/
