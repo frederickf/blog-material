@@ -27,11 +27,9 @@ var ListModel = Stapes.subclass({
     },
 
     removeItem : function (itemToRemove) {
-        this.each(function(item, key) {
-            if (itemToRemove === item) {
-                this.remove(key);
-            }
-        })
+        this.remove(function(item) {
+            return item === itemToRemove;
+        });
     }
 });
 
