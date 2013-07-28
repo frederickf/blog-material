@@ -1,0 +1,9 @@
+{
+  "name": "grunt-quick-start",
+  "version": "0.1.0",
+  "description": "Example files for blog post",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-jshint": "~0.6.0"
+  }
+}
